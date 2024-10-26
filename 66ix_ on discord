@@ -1,0 +1,30 @@
+getgenv().Silent = {
+    Settings = {
+        Toggled = true,
+        AimPart = "UpperTorso",
+        HitChance = 9999,
+        Prediction = {
+            Toggled = true,
+            Value = 0.14377940513099224789078568759678573,
+            AutoPred = false,
+            JumpOffset = 0.08,
+            AntiGroundShots = true,
+            Resolve = false,
+        },
+        Circle = {
+            Visible = true,
+            Transparency = 1,
+            Thickness = 2,
+            NumSides = 100,
+            Radius = 90,
+            Filled = false,
+        },
+        RainbowTarget = true,
+        WallCheck = true,
+        AutoShoot = false,
+        BulletTp = false,
+        FriendCheck = false,
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hi999999-max/silent-aim/refs/heads/main/Better-Silent-Aim", true))()
